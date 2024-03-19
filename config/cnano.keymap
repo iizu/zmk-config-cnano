@@ -96,17 +96,17 @@
             bindings = <
 &trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(PLUS)
 &trans  &trans        &trans      &trans         &trans        &trans           &trans         &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &trans      &trans         &trans        &trans           &trans         &trans        &trans        &trans        &trans        &trans
+&trans  &kp LC(Z)     &kp LC(X)   &kp LC(C)      &kp LC(V)     &trans           &trans         &trans        &trans        &trans        &trans        &trans
                                   &trans         &trans        &trans           &trans         &trans        &trans
             >;
         };
 
         FN {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4        &kp F5        &kp F6      &kp F7        &kp F8  &kp F9  &kp F10  &kp F11
+&trans  &trans  &trans  &trans  &kp LS(LPAR)  &kp LS(LT)    &kp LS(GT)  &kp LS(RPAR)  &trans  &trans  &trans   &kp F12
+&trans  &trans  &trans  &trans  &kp LS(LBRC)  &kp LBKT      &kp RBKT    &kp LS(RBRC)  &trans  &trans  &trans   &trans
+                        &trans  &trans        &trans        &trans      &trans        &trans
             >;
         };
 
