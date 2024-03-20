@@ -138,5 +138,14 @@
                         &mkp MB3  &mkp MB1  &mkp MB2    &mkp MB2  &mkp MB1  &mkp MB3
             >;
         };
+
+        Gaming {
+            bindings = <
+&kp N3  &kp ESC    &kp Q  &kp W   &kp E   &kp R     &trans  &trans  &trans  &trans  &trans  &trans
+&kp N2  &kp TAB    &kp A  &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+&kp N1  &kp LSHFT  &kp Z  &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
     };
 };
