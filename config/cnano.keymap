@@ -101,9 +101,8 @@
 &kp TAB    &kp A  &kp S  &kp D  &kp F      &kp G    &kp H  &kp J    &kp K      &kp L    &kp SEMI  &kp ENTER
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V      &kp B    &kp N  &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                          &mo 3  &kp SPACE  &mo 1    &mo 2  &kc_del  &mo 4
-            >;
 
-            trackball-bindings = <&tmv_coarse>;
+            >;
         };
 
         Lower {
@@ -112,9 +111,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &kp SQT  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans     &trans   &trans
                         &trans  &trans  &trans    &kp LCTRL  &kp LSHFT  &kp LALT
-            >;
 
-            trackball-bindings = <&tmv_fine>;
+            >;
         };
 
         Raise {
@@ -123,9 +121,8 @@
 &trans  &trans        &trans      &trans         &trans        &kp HOME         &kp PAGE_UP    &trans        &trans        &trans        &trans        &trans
 &trans  &kp LC(Z)     &kp LC(X)   &kp LC(C)      &kp LC(V)     &kp END          &kp PAGE_DOWN  &trans        &trans        &trans        &trans        &trans
                                   &kp LALT       &kp LSHFT     &kp LCTRL        &trans         &trans        &trans
-            >;
 
-            trackball-bindings = <&tmv_fine>;
+            >;
         };
 
         FN {
@@ -134,6 +131,7 @@
 &trans   &trans  &trans  &trans  &kp LS(LPAR)  &kp LS(LT)    &kp LS(GT)  &kp LS(RPAR)  &trans  &trans  &trans     &kp F12
 &trans   &trans  &trans  &trans  &kp LS(LBRC)  &kp LBKT      &kp RBKT    &kp LS(RBRC)  &trans  &trans  &kp PSCRN  &bt BT_NXT
                          &trans  &trans        &trans        &trans      &trans        &trans
+
             >;
         };
 
@@ -143,6 +141,7 @@
 &trans  &trans  &trans  &trans    &trans    &trans      &trans    &trans    &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans    &trans    &trans      &trans    &trans    &trans    &trans  &trans  &trans
                         &mkp MB3  &mkp MB2  &mkp MB1    &mkp MB1  &mkp MB2  &mkp MB3
+
             >;            
         };
 
@@ -152,9 +151,9 @@
 &kp N2  &kp TAB    &kp A  &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans  &trans
 &kp N1  &kp LSHFT  &kp Z  &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  &trans
                           &trans  &trans  &trans    &trans  &trans  &trans
-            >;
 
-            trackball-bindings = <&tmv_fine>;
+            >;
         };
+
     };
 };
