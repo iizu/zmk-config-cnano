@@ -139,10 +139,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans    &trans    &trans      &trans              &trans             &trans          &trans             &trans  &trans
-&trans  &trans  &trans  &trans    &trans    &trans      &mwh SCROLL_LEFT    &mwh SCROLL_DOWN   &mwh SCROLL_UP  &mwh SCROLL_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans    &trans    &trans      &mwh SCROLL_VERT 0  &mwh SCROLL_HOR 0  &trans          &trans             &trans  &trans
-                        &mkp MB3  &mkp MB2  &mkp MB1    &mkp MB1            &mkp MB2           &mkp MB3
+&trans  &trans  &trans  &trans    &trans    &trans      &trans    &trans    &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans      &trans    &trans    &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans      &trans    &trans    &trans    &trans  &trans  &trans
+                        &mkp MB3  &mkp MB2  &mkp MB1    &mkp MB1  &mkp MB2  &mkp MB3
             >;
 
             trackball-bindings = <&tmv_coarse>;
