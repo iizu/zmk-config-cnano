@@ -135,8 +135,6 @@
 &trans   &trans  &trans  &trans  &kp LS(LBRC)  &kp LBKT      &kp RBKT    &kp LS(RBRC)  &trans  &trans  &kp PSCRN  &bt BT_NXT
                          &trans  &trans        &trans        &trans      &trans        &trans
             >;
-
-            trackball-bindings = <&tmv_coarse>;
         };
 
         mouse {
@@ -145,9 +143,7 @@
 &trans  &trans  &trans  &trans    &trans    &trans      &trans    &trans    &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans    &trans    &trans      &trans    &trans    &trans    &trans  &trans  &trans
                         &mkp MB3  &mkp MB2  &mkp MB1    &mkp MB1  &mkp MB2  &mkp MB3
-            >;
-
-            trackball-bindings = <&tmv_coarse>;
+            >;            
         };
 
         Gaming {

@@ -25,7 +25,7 @@ config SCROLL_LAYER_INDEX
     default 3
 
 config SNIPE_LAYER_INDEX
-    int "Index of scroll layer"
+    int "Index of snipe layer"
     default 1
 
 config MOUSE_LAYER_ACTIVE_MS
