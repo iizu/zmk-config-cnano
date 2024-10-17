@@ -114,6 +114,11 @@
             bindings = <&mo 5>;
             key-positions = <16 15>;
         };
+
+        ToggleGameLayer {
+            bindings = <&tog 6>;
+            key-positions = <0 5 6 11>;
+        };
     };
 
     keymap {
@@ -181,10 +186,10 @@
 
         Gaming {
             bindings = <
-&kp N3  &kp ESC    &kp Q  &kp W   &kp E   &kp R     &trans  &trans  &trans  &trans  &trans  &trans
-&kp N2  &kp TAB    &kp A  &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans  &trans
-&kp N1  &kp LSHFT  &kp Z  &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans  &trans  &trans    &trans  &trans  &trans
+&kp ESCAPE  &kp TAB         &kp Q  &kp W   &kp E   &kp R     &trans  &trans  &trans  &trans  &trans  &trans
+&kp N7      &kp LEFT_SHIFT  &kp A  &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+&kp N8      &kp LCTRL       &kp Z  &kp X   &kp C   &kp V     &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
